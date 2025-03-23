@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vik Gachira - Portfolio</title>
+    <link rel="stylesheet" href="tsino2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <h1>Victor Karani</h1>
+            <p>Software Developer & Creative Thinker</p>
+            <nav>
+                <ul class="buttons">
+                    <li>
+                        <div class="container">
+                            <div class="button-border">
+                                <button type="button" class="button">
+                                    <a href="#about">About me</a>
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li><div class="container">
+                        <div class="button-border">
+                            <button type="button" class="button">
+                                <a href="#projects">Projects</a>
+                            </button>
+                        </div>
+                    </div></a></li>
+                    <li><div class="container">
+                        <div class="button-border">
+                            <button type="button" class="button">
+                                <a href="#skills">Sills</a>
+                            </button>
+                        </div>
+                    </div></li>
+                    <li><div class="container">
+                        <div class="button-border">
+                            <button type="button" class="button">
+                                <a href="#contact">Contact</a>
+                            </button>
+                        </div>
+                    </div></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio! I'm Victor Karani, a passionate software developer with a knack for creative problem-solving. I specialize in building web applications and enjoy exploring new technologies. My goal is to create innovative and user-friendly solutions that make a positive impact.</p>
+            <p>I believe in continuous learning and collaboration. When I'm not coding, you can find me exploring new ideas or contributing to open-source projects.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="section-content">
+            <h2>My Projects</h2>
+            <div class="project">
+                <h3>Project 1: E-commerce Platform</h3>
+                <p>Developed a full-stack e-commerce platform with user authentication, product management, and secure payment integration.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Project 2: Mobile App for Task Management</h3>
+                <p>Created a mobile application for task management using React Native, enabling users to organize their daily tasks efficiently.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Project 3: Personal Portfolio Website</h3>
+                <p>Designed and built a responsive portfolio website to showcase my skills and projects.</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5, CSS3, JavaScript</li>
+                <li>React, Node.js, Express.js</li>
+                <li>Python, Java</li>
+                <li>SQL, MongoDB</li>
+                <li>Git, GitHub</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="section-content">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://www.instagram.com/vik.gachira" target="_blank">Instagram</a>
+                <a href="#" target="_blank">LinkedIn</a>
+                <a href="#" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <p>&copy; 2024 Vik Gachira. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            // Add your form submission logic here
+            alert('Form submitted!'); // Placeholder
+        });
+    </script>
+</body>
+</html>

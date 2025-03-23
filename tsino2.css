@@ -1,0 +1,210 @@
+body {
+    background: url(vvkcastle.png);
+    background-size: 255%;
+    background-position: 65% 0%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: #eab114;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
+    grid-template-rows: repeat(auto-fit, minmax(5fr, 3fr));
+    row-gap: 10px
+    
+    cursor: var(--grad-color2)
+}
+:root {
+    --font-family: 'Karla', sans-serif;
+    --body-bg: #1e1f2512;
+    --btn-bg: #00000022;
+    --btn-color: #cbcbcb;
+    --btn-color-hover: #fff;
+    --grad-color1: #fbe7bf11;
+    --grad-color2: #bf78211a;
+    --grad-color3: #8c4c1410;
+    --grad-color4: #402b1914;
+    --grad-color5: #59220223;
+}
+.main-header {
+    background: rgba(0, 0, 0, 0.152);
+    color: #ffeb3b;
+    /* margin-top: 0cqw; */
+    text-align: center;
+    font-family: "Fjalla One", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    /* display: grid;
+    grid-area: 10vh/10vh */
+    padding: 5px 10px;
+    
+}
+
+.header-content h1 {
+    font-size: 7em;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    /* text-shadow: 1px 1px #ffeb3b; */
+}
+
+.header-content nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header-content nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.header-content nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.header-content nav ul li a:hover {
+    color: #ffeb3b;
+    font-size: 1.3em;
+    transition: font-size o.3;
+}
+
+.section-content {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 10px;
+    background: rgba(250, 250, 250, 0.042);
+    border-radius: 10px;
+    font-family: "Fjalla One", sans-serif;
+  font-weight: 50;
+  font-style: normal;
+    backdrop-filter: blur 0px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.section-content:hover{
+    font-size: larger;
+}
+
+.section-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.project {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+}
+
+.project h3 {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+#contactForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+#contactForm button {
+    background-color: #eab114;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contactForm button:hover {
+    background-color: #d49a0f;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #eab114;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.main-footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.506);
+    color: rgba(255, 255, 255, 0.234);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-content nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .section-content {
+        padding: 15px;
+    }
+}
+.container {
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    flex-direction: row;
+    height: ;
+    flex-wrap: ;
+    }
+    .button-border {
+        background: linear-gradient(115deg, var(--grad-color1), var(--grad-color2), var(--grad-color3), var(--grad-color4), var(--grad-color5));
+        padding: 2px;
+    }
+    .button {
+        border: none;
+        background: var(--btn-bg);
+        color: var(--btn-color);
+        padding: 1em 4.5em;
+        font-family: inherit;
+        letter-spacing: .1em;
+        background: var(--btn-bg);
+    }
+    .button-border:hover {
+    background: linear-gradient(200deg,  var(--grad-color1), var(--grad-color2), var(--grad-color3), var(--grad-color4), var(--grad-color5));
+    }
+    .button-border:hover .button {
+        color: var(--btn-color-hover);
+        padding: 1.1em 4.6em;
+    }
+
